@@ -23,7 +23,8 @@ I have merged five different datasets based on zip code to construct a new datas
 ### Exploration
 #### city vs price
 <img width="1087" alt="Screenshot 2023-09-15 at 23 41 39" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/ce078374-8bfa-42b1-b48d-06ce25902d5d">
-**Insights**:</p>
+
+**Insights**:
 - The top five cities with the highest average house prices are Medina, Mercer Island, Bellevue, Sammamish, and Redmond.</p>
 - A significant portion of the houses are located in Seattle.</p>
 
@@ -34,8 +35,13 @@ I have merged five different datasets based on zip code to construct a new datas
 - Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy
 - To maintain data integrity, it is recommended to remove entries with 0, 11, or 33 bedrooms.
 
-![bed](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/29f818c3-e5f1-46db-8f8c-6c8f5fd6aa75)
+#### bathrooms vs price
 ![bathrooms](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/a7748a79-12f8-49de-b012-60d155f49ef7)
+Insights:
+- The prevalent bathroom configuration is 2.5 bathrooms per house..
+* Similar to the bedrooms, a higher number of bathrooms tends to increase the house price. However, houses with 0 and 7.5 bathrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects their pricing
+* To maintain data integrity, it is recommended to remove entries with 0 or 7.5  bathrooms.
+
 ![floors](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/fdd65c74-29d7-44d3-8827-1f044d8f9b3e)
 ![condition](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/2bfb2f6b-f5ae-4e72-845a-098762045a37)
 ![grade](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/29a803cd-44bc-4ce8-b219-5be472c1b287)
