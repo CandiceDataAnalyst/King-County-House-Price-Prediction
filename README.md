@@ -4,6 +4,7 @@
 
 ### PROJECT OVERVIEW
 ---
+
 **Objective**:As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
 **Business Question**:</p>
 **Location**: Which areas in King County command the highest average house prices?</p>
