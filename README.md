@@ -9,7 +9,7 @@ As a data scientist at FlyHomes, my role is to delve into the house sales data i
 **Location**: Which areas in King County command the highest average house prices?</p>
 **Inner Factors**: What house features have the most substantial impact on the sale price?</p>
 **External Factors**: How do external elements such as property tax rates, school ratings, and demographic data sway house prices in King County?</p>
-**Goal**：
+**Goal**：</p>
 This project aims to guide potential investors and homebuyers in making informed decisions in the King County real estate market.
 
 ### DATA USED FOR THIS PROJECT
