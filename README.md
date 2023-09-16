@@ -1,5 +1,4 @@
 # King-County-House-Price-Prediction
----
 <img width="614" alt="Screenshot 2023-07-08 at 18 47 41" src="https://github.com/CandiceDataAnalyst/King-County-House-Price-Prediction/assets/127648422/81dfaa75-c317-4179-a8f4-b3489d80db3b">
 
 ### PROJECT OVERVIEW
