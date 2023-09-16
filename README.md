@@ -77,23 +77,23 @@ I have merged five different datasets based on zip code to construct a new datas
 
 ### Findings
 ---
-**Location Insights**</P>
+- **Location Insights**</P>
 **Top Cities for Investment**: Medina, Mercer Island, Bellevue.</P>
 **Seattle**: Major hub with dense housing landscape.</P>
-**House Features**</P>
+- **House Features**</P>
 **Optimal Features**: Homes with 3 bedrooms, 2.5 bathrooms, and 2.5 floors tend to fetch the highest prices.</P>
 **Grade**: A higher grade generally correlates with a higher price; the condition score is less influential.</P>
-**Model**</P>
+- **Model**</P>
 **Inner Factors**: The sqft_living_log, sqft_lot_log, grade, and the number of bathrooms significantly impact house prices.</P>
 **External Factors**: The unemployment rate, travel time to work, and median age are significant factors.</P>
 **Overall**: The sqft_living_log and grade being pivotal factors.</P>
-**Challenges**</P>
+- **Challenges**</P>
 **Multicollinearity**: Present in both inner and external factors, yet better managed by the XGBoost model compared to MLR
 
 ### Recommendation
 ---
 - **Data-Driven Marketing**:</p>
-- Utilize the insights derived from the analysis to create data-driven marketing strategies. For example, highlighting the optimal house features (like the number of floors and grade score) in marketing.</P>
+ Utilize the insights derived from the analysis to create data-driven marketing strategies. For example, highlighting the optimal house features (like the number of floors and grade score) in marketing.</P>
 - **Advisory Services**: </p>
 Offer advisory services to clients, helping them make informed decisions based on the significant factors influencing house prices in King County.</P>
 - **Collaborative Efforts**:</p>
@@ -103,9 +103,9 @@ Recommend leveraging the XGBoost model for predictive analyses given its slightl
 
 ### Further Work
 ---
-**More sales data**:</p>
+- **More sales data**:</p>
 The dataset covers the period from May 2014 to May 2015. To reach a more accurate conclusion, it is essential to obtain data that is both more recent and spans a longer period</P>
-**Temporal Analysis**:</p>
+- **Temporal Analysis**:</p>
 Conduct a temporal analysis to understand how house prices have evolved over time and identify any seasonal trends or patterns.</P>
-**Interactive Dashboard**: </p>
+- **Interactive Dashboard**: </p>
 Develop an interactive dashboard that allows users to explore the data and insights visually and to generate custom reports based on their preferences.</P>
