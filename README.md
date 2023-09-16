@@ -1,9 +1,7 @@
 # King-County-House-Price-Prediction
 <img width="614" alt="Screenshot 2023-07-08 at 18 47 41" src="https://github.com/CandiceDataAnalyst/King-County-House-Price-Prediction/assets/127648422/81dfaa75-c317-4179-a8f4-b3489d80db3b">
 
-### PROJECT OVERVIEW
------
-
+## PROJECT OVERVIEW
 As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
 **Business Question**:</p>
 **Location**: Which areas in King County command the highest average house prices?</p>
@@ -12,61 +10,57 @@ As a data scientist at FlyHomes, my role is to delve into the house sales data i
 **Goal**: </p>
 This project aims to guide potential investors and homebuyers in making informed decisions in the King County real estate market.</p>
 
-### DATA USED FOR THIS PROJECT
----
+## DATA USED FOR THIS PROJECT
 <img width="524" alt="Screenshot 2023-09-15 at 23 33 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/80e45a9b-f518-49b8-9b74-205eb25274a5">
 
 I have merged five different datasets based on zip code to construct a new dataset for predicting house prices
 
-### DATA PROCESSING
----
+## DATA PROCESSING
 <img width="1080" alt="Screenshot 2023-09-15 at 23 39 47" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/de4c9ae4-aa2a-40c7-9b5d-1c79c469fa07">
 
-### METHODOLOGIES
----
+## METHODOLOGIES
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9">
 
-### EXPLORATION
+## EXPLORATION
 ---
-#### City VS Price
+### City VS Price
 <img width="1087" alt="Screenshot 2023-09-15 at 23 41 39" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/ce078374-8bfa-42b1-b48d-06ce25902d5d"></p>
 **Insights**:
 - The top five cities with the highest average house prices are Medina, Mercer Island, Bellevue, Sammamish, and Redmond.</p>
 - A significant portion of the houses are located in Seattle.</p>
 
-#### Bedrooms VS Price
+### Bedrooms VS Price
 ![bed](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/79373b08-9e3b-4e38-81ea-55b9f51ad830)
 **Insights**:
 - A large number of houses in the dataset feature three bedrooms.
 - Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy
 - To maintain data integrity, it is recommended to remove entries with 0, 11, or 33 bedrooms.
 
-#### Bathrooms VS Price
+### Bathrooms VS Price
 ![bathrooms](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/a7748a79-12f8-49de-b012-60d155f49ef7)
 **Insights**:
 - The prevalent bathroom configuration is 2.5 bathrooms per house..
 * Similar to the bedrooms, a higher number of bathrooms tends to increase the house price. However, houses with 0 and 7.5 bathrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects their pricing
 * To maintain data integrity, it is recommended to remove entries with 0 or 7.5  bathrooms.
 
-#### Floors VS Price
+### Floors VS Price
 ![floors](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/fdd65c74-29d7-44d3-8827-1f044d8f9b3e)
 **Insights**:
 * Most houses are designed with one or two floors.
 * Houses boasting 2.5 floors fetch the highest average prices in the market.
 
-#### Condition VS Price
+### Condition VS Price
 ![condition](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/2bfb2f6b-f5ae-4e72-845a-098762045a37)
 **Insights**:
 * A large swath of houses has been awarded a condition score of 3.
 * The average house prices don't vary much for homes with condition scores between 3 and 5.
 
-#### Grade VS Price
+### Grade VS Price
 ![grade](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/29a803cd-44bc-4ce8-b219-5be472c1b287)
 **Insights**:
 * The majority of houses receive a grade score of 7.
 * A direct correlation exists between the grade score and the house price, with a higher grade denoting a higher price.
-### MODEL COMPARISON
----
+## MODEL COMPARISON
 <img width="1002" alt="Screenshot 2023-09-16 at 00 01 41" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/91549de3-7896-4b89-9af8-ac0ab483b0e5"></P>
 **Insights**:</P>
 - **Inner Factors**:</P>
@@ -78,8 +72,7 @@ Both models showed that the unemployment rate, travel time to work, and median a
 - **Overall Factors**:</P>
 Both models exhibited high explanatory power when considering the overall factors, with XGBoost slightly outperforming MRL. The sqft_living_log and grade variables were significant in both models, highlighting their importance in the prediction.</P>
 
-### Findings
----
+## Findings
 - **Location Insights**</P>
 **Top Cities for Investment**: Medina, Mercer Island, Bellevue.</P>
 **Seattle**: Major hub with dense housing landscape.</P>
@@ -93,8 +86,7 @@ Both models exhibited high explanatory power when considering the overall factor
 - **Challenges**</P>
 **Multicollinearity**: Present in both inner and external factors, yet better managed by the XGBoost model compared to MLR
 
-### Recommendation
----
+## Recommendation
 - **Data-Driven Marketing**:</p>
  Utilize the insights derived from the analysis to create data-driven marketing strategies. For example, highlighting the optimal house features (like the number of floors and grade score) in marketing.</P>
 - **Advisory Services**: </p>
@@ -104,8 +96,7 @@ Collaborate with local authorities to gather more comprehensive data on external
 - **Leveraging XGBoost**: </p>
 Recommend leveraging the XGBoost model for predictive analyses given its slightly superior performance compared to the MLR model, especially in handling multicollinearity issues effectively.</P>
 
-### Further Work
----
+## Further Work
 - **More sales data**:</p>
 The dataset covers the period from May 2014 to May 2015. To reach a more accurate conclusion, it is essential to obtain data that is both more recent and spans a longer period</P>
 - **Temporal Analysis**:</p>
