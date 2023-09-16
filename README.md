@@ -3,6 +3,7 @@
 <img width="614" alt="Screenshot 2023-07-08 at 18 47 41" src="https://github.com/CandiceDataAnalyst/King-County-House-Price-Prediction/assets/127648422/81dfaa75-c317-4179-a8f4-b3489d80db3b">
 
 ### PROJECT OVERVIEW
+---
 **Objective**:As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
 **Business Question**:</p>
 **Location**: Which areas in King County command the highest average house prices?</p>
@@ -11,18 +12,22 @@
 **Goal**：
 This project aims to guide potential investors and homebuyers in making informed decisions in the King County real estate market.
 
-### DATA USED FOR THIS PROJECT  
+### DATA USED FOR THIS PROJECT
+---
 <img width="524" alt="Screenshot 2023-09-15 at 23 33 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/80e45a9b-f518-49b8-9b74-205eb25274a5">
 
 I have merged five different datasets based on zip code to construct a new dataset for predicting house prices
 
-### DATA PROCESSING 
+### DATA PROCESSING
+---
 <img width="1080" alt="Screenshot 2023-09-15 at 23 39 47" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/de4c9ae4-aa2a-40c7-9b5d-1c79c469fa07">
 
 ### METHODOLOGIES
+---
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9">
 
 ### EXPLORATION
+---
 #### City VS Price
 <img width="1087" alt="Screenshot 2023-09-15 at 23 41 39" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/ce078374-8bfa-42b1-b48d-06ce25902d5d"></p>
 **Insights**:
@@ -61,6 +66,7 @@ I have merged five different datasets based on zip code to construct a new datas
 * The majority of houses receive a grade score of 7.
 * A direct correlation exists between the grade score and the house price, with a higher grade denoting a higher price.
 ### MODEL COMPARISON
+---
 <img width="1002" alt="Screenshot 2023-09-16 at 00 01 41" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/91549de3-7896-4b89-9af8-ac0ab483b0e5"></P>
 **Insights**:</P>
 **Inner Factors**: Both models emphasized that the variables sqft_living_log, sqft_lot_log, grade, and bathrooms consistently exert a significant impact on house prices. However, they displayed low R-squared values, hinting at a potentially limited relationship between the inner factors and the predicted outcomes. Before deploying the MLR model, I noticed that each variable had a high Variance Inflation Factor (VIF), which signals potential inaccuracies in the MLR results due to multicollinearity. In this case, where variables are highly correlated, this can skew the results and underrepresent the importance of some variables. Despite my attempts to remove the high VIF variables one at a time, I was left with no variables to analyze. Conversely, an article on Medium highlighted the XGBoost model's adeptness at managing multicollinearity issues effectively, suggesting it might furnish more reliable predictions compared to the MLR model in this context.</p>
@@ -70,6 +76,7 @@ I have merged five different datasets based on zip code to construct a new datas
 **Overall Factors**: Both models exhibited high explanatory power when considering the overall factors, with XGBoost slightly outperforming MRL. The sqft_living_log and grade variables were significant in both models, highlighting their importance in the prediction.</P>
 
 ### Findings
+---
 **Location Insights**</P>
 **Top Cities for Investment**: Medina, Mercer Island, Bellevue.</P>
 **Seattle**: Major hub with dense housing landscape.</P>
@@ -84,12 +91,14 @@ I have merged five different datasets based on zip code to construct a new datas
 **Multicollinearity**: Present in both inner and external factors, yet better managed by the XGBoost model compared to MLR
 
 ### Recommendation
+---
 - **Data-Driven Marketing**: Utilize the insights derived from the analysis to create data-driven marketing strategies. For example, highlighting the optimal house features (like the number of floors and grade score) in marketing.</P>
 - **Advisory Services**: Offer advisory services to clients, helping them make informed decisions based on the significant factors influencing house prices in King County.</P>
 - **Collaborative Efforts**: Collaborate with local authorities to gather more comprehensive data on external factors such as crime rates and school ratings to further enhance the predictive models.</P>
 - **Leveraging XGBoost**: Recommend leveraging the XGBoost model for predictive analyses given its slightly superior performance compared to the MLR model, especially in handling multicollinearity issues effectively.</P>
 
 ### Further Work
+---
 **More sales data**:
 The dataset covers the period from May 2014 to May 2015. To reach a more accurate conclusion, it is essential to obtain data that is both more recent and spans a longer period</P>
 **Temporal Analysis**:
