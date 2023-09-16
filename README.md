@@ -22,7 +22,6 @@ I have merged five different datasets based on zip code to construct a new datas
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9">
 
 ## EXPLORATION
----
 ### City VS Price
 <img width="1087" alt="Screenshot 2023-09-15 at 23 41 39" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/ce078374-8bfa-42b1-b48d-06ce25902d5d"></p>
 **Insights**:
