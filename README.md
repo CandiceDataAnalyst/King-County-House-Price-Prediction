@@ -37,7 +37,7 @@ I have merged five different datasets based on zip code to construct a new datas
 
 #### Bathrooms VS Price
 ![bathrooms](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/a7748a79-12f8-49de-b012-60d155f49ef7)
-Insights:
+**Insights**:
 - The prevalent bathroom configuration is 2.5 bathrooms per house..
 * Similar to the bedrooms, a higher number of bathrooms tends to increase the house price. However, houses with 0 and 7.5 bathrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects their pricing
 * To maintain data integrity, it is recommended to remove entries with 0 or 7.5  bathrooms.
