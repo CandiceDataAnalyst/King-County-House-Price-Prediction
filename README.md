@@ -25,13 +25,14 @@ I have merged five different datasets based on zip code to construct a new datas
 <img width="1087" alt="Screenshot 2023-09-15 at 23 41 39" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/ce078374-8bfa-42b1-b48d-06ce25902d5d">
 **Insights**:</p>
 - The top five cities with the highest average house prices are Medina, Mercer Island, Bellevue, Sammamish, and Redmond.</p>
-- A significant portion of the houses are located in Seattle.
-bedrooms vs price
+- A significant portion of the houses are located in Seattle.</p>
+
+#### bedrooms vs price
 ![bed](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/79373b08-9e3b-4e38-81ea-55b9f51ad830)
-Insights:
-* A large number of houses in the dataset feature three bedrooms.
-* Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy
-* To maintain data integrity, it is recommended to remove entries with 0, 11, or 33 bedrooms.
+**Insights**:
+- A large number of houses in the dataset feature three bedrooms.
+- Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy
+- To maintain data integrity, it is recommended to remove entries with 0, 11, or 33 bedrooms.
 
 ![bed](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/29f818c3-e5f1-46db-8f8c-6c8f5fd6aa75)
 ![bathrooms](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/a7748a79-12f8-49de-b012-60d155f49ef7)
