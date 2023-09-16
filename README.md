@@ -4,7 +4,7 @@
 ### PROJECT OVERVIEW
 -----
 
-**Objective**:As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
+As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
 **Business Question**:</p>
 **Location**: Which areas in King County command the highest average house prices?</p>
 **Inner Factors**: What house features have the most substantial impact on the sale price?</p>
@@ -92,16 +92,20 @@ I have merged five different datasets based on zip code to construct a new datas
 
 ### Recommendation
 ---
-- **Data-Driven Marketing**: Utilize the insights derived from the analysis to create data-driven marketing strategies. For example, highlighting the optimal house features (like the number of floors and grade score) in marketing.</P>
-- **Advisory Services**: Offer advisory services to clients, helping them make informed decisions based on the significant factors influencing house prices in King County.</P>
-- **Collaborative Efforts**: Collaborate with local authorities to gather more comprehensive data on external factors such as crime rates and school ratings to further enhance the predictive models.</P>
-- **Leveraging XGBoost**: Recommend leveraging the XGBoost model for predictive analyses given its slightly superior performance compared to the MLR model, especially in handling multicollinearity issues effectively.</P>
+- **Data-Driven Marketing**:</p>
+- Utilize the insights derived from the analysis to create data-driven marketing strategies. For example, highlighting the optimal house features (like the number of floors and grade score) in marketing.</P>
+- **Advisory Services**: </p>
+Offer advisory services to clients, helping them make informed decisions based on the significant factors influencing house prices in King County.</P>
+- **Collaborative Efforts**:</p>
+Collaborate with local authorities to gather more comprehensive data on external factors such as crime rates and school ratings to further enhance the predictive models.</P>
+- **Leveraging XGBoost**: </p>
+Recommend leveraging the XGBoost model for predictive analyses given its slightly superior performance compared to the MLR model, especially in handling multicollinearity issues effectively.</P>
 
 ### Further Work
 ---
-**More sales data**:
+**More sales data**:</p>
 The dataset covers the period from May 2014 to May 2015. To reach a more accurate conclusion, it is essential to obtain data that is both more recent and spans a longer period</P>
-**Temporal Analysis**:
+**Temporal Analysis**:</p>
 Conduct a temporal analysis to understand how house prices have evolved over time and identify any seasonal trends or patterns.</P>
-**Interactive Dashboard**: 
+**Interactive Dashboard**: </p>
 Develop an interactive dashboard that allows users to explore the data and insights visually and to generate custom reports based on their preferences.</P>
