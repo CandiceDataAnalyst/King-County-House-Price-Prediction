@@ -2,12 +2,12 @@
 <img width="614" alt="Screenshot 2023-07-08 at 18 47 41" src="https://github.com/CandiceDataAnalyst/King-County-House-Price-Prediction/assets/127648422/81dfaa75-c317-4179-a8f4-b3489d80db3b">
 
 ### Objective:
-As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.
-/* Business Question:*/
-Location: Which areas in King County command the highest average house prices?
-Inner Factors: What house features have the most substantial impact on the sale price?
-External Factors: How do external elements such as property tax rates, school ratings, and demographic data sway house prices in King County?
-Goal：
+As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
+**Business Question**:
+**Location**: Which areas in King County command the highest average house prices?</p>
+**Inner Factors**: What house features have the most substantial impact on the sale price?</p>
+**External Factors**: How do external elements such as property tax rates, school ratings, and demographic data sway house prices in King County?</p>
+**Goal**：
 This project aims to guide potential investors and homebuyers in making informed decisions in the King County real estate market.
 ### Data Used for this Project 
 <img width="524" alt="Screenshot 2023-09-15 at 23 33 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/80e45a9b-f518-49b8-9b74-205eb25274a5">
@@ -15,10 +15,7 @@ This project aims to guide potential investors and homebuyers in making informed
 I have merged five different datasets based on zip code to construct a new dataset for predicting house prices
 
 ### Data Processing
-1. What does the raw data sets look like? E.g., How many variables total? How many are Quantitative? How many are Qualitative? Total unique observation?
-2. What you have done in data cleaning step(s), and why do you clear the data like that? E.g., Did you remove any missing value? How many?
-3. Did you do any data reformatting/data transformation data? E.g., How many variables are highly skewed? Which one(s)? Did you do any transformation? Why did you choose that particular transformation? See Data_Transformation_Guide
-4. Attach the raw data as well as your cleaned data.
+
 ### Project Progress Log 4 -- Model Design
 1. Which data analytic methods do you originally plan to apply? Include diagrams of your modeling plans, e.g., identify clusters, then do backward regression...
 2. Explain why you think those methods would be suitable for your data modeling
