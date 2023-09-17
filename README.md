@@ -2,23 +2,22 @@
 <img width="614" alt="Screenshot 2023-07-08 at 18 47 41" src="https://github.com/CandiceDataAnalyst/King-County-House-Price-Prediction/assets/127648422/81dfaa75-c317-4179-a8f4-b3489d80db3b">
 
 ## PROJECT OVERVIEW
-As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
+As a data scientist at FlyHomes, As a data scientist at FlyHomes, I am tasked with analyzing house sales data in the King County area to build predictive models for sale prices and identify the significant factors influencing these prices.</p>
 **Business Question**:</p>
 **Location**: Which areas in King County have the highest average house prices?</p>
-**Inner Factors**: What specific house features (e.g., square footage, number of bedrooms) substantially impact the sale price?</p>
+**Inner Factors**: What specific house features (e.g., square footage, number of bedrooms) have the most substantial impact on the sale price?</p>
 **External Factors**: How do external elements such as crime rates, school ratings, and demographic data affect house prices in King County?</p>
 **Goal**: </p>
-To guide potential investors, homebuyers, and Flyhome real estate professionals in making informed decisions in the King County real estate market by providing exploratory data analysis, statistical analysis, and machine learning technology reliable data sources.</p>
+My goal is to support potential investors and homebuyers in making well-informed decisions by offering them data and insights gathered through the comprehensive analysis of the King County real estate market. Moreover, we aim to cultivate a more confident home-buying experience, assisting them in navigating the market with certainty and success..</p>
 
 ## DATA USED FOR THIS PROJECT
 <img width="524" alt="Screenshot 2023-09-15 at 23 33 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/80e45a9b-f518-49b8-9b74-205eb25274a5">
+The 'House Sales in King County, USA' dataset from Kaggle was selected to analyze house sales data. This dataset encompasses sales from May 2014 to May 2015 and includes 21 variables, with over 21,000 rows of data, each representing a single house sale. To clean the dataset, we downloaded it in CSV format from the Kaggle database and removed unnecessary columns, retaining only essential categories such as price, bedrooms, bathrooms, square footage of living space, square footage of the lot, floors, view, condition, grade, year built, and zip code.</p>
 
-I have merged five different datasets based on zip code to construct a new dataset for predicting house prices
+To enhance our analysis, we incorporated location-based data by sourcing tables from federal and state databases. This additional data brought in crucial factors such as property tax rate, the number of crimes, school ratings, unemployment rate, average commute time, median household income, total population, and median age. We then merged five different datasets based on zip codes to construct a comprehensive dataset for predicting house prices. To review the process of merging the datasets, you can check my GitHub under the 'data merging' folder.</p>
 
 ## DATA PROCESSING
-<img width="1080" alt="Screenshot 2023-09-15 at 23 39 47" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/de4c9ae4-aa2a-40c7-9b5d-1c79c469fa07">
-
-
+<img width="1080" alt="Screenshot 2023-09-15 at 23 39 47" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/de4c9ae4-aa2a-40c7-9b5d-1c79c469fa07"></p>
 
 ## METHODOLOGIES
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9">
