@@ -17,7 +17,8 @@ The 'House Sales in King County, USA' dataset from Kaggle was selected to analyz
 To enhance our analysis, we incorporated location-based data by sourcing tables from federal and state databases. This additional data brought in crucial factors such as property tax rate, the number of crimes, school ratings, unemployment rate, average commute time, median household income, total population, and median age. We then merged five different datasets based on zip codes to construct a comprehensive dataset for predicting house prices. To review the process of merging the datasets, you can check my GitHub under the 'data merging' folder.</p>
 
 ## DATA PROCESSING
-<img width="1080" alt="Screenshot 2023-09-15 at 23 39 47" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/de4c9ae4-aa2a-40c7-9b5d-1c79c469fa07"></p>
+<img width="1083" alt="Screenshot 2023-09-16 at 19 47 30" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/cd924ff8-bd83-4a1b-b3ca-1d49543626ea"></p>
+
 
 ## METHODOLOGIES
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9">
