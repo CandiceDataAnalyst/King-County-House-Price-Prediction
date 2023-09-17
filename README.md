@@ -8,7 +8,7 @@ As a data scientist at FlyHomes, I am tasked with analyzing house sales data in 
 **Inner Factors**: What specific house features (e.g., square footage, number of bedrooms) have the most substantial impact on the sale price?</p>
 **External Factors**: How do external elements such as crime rates, school ratings, and demographic data affect house prices in King County?</p>
 **Goal**: </p>
-My goal is to support potential investors and homebuyers in making well-informed decisions by offering them data and insights gathered through the comprehensive analysis of the King County real estate market. Moreover, we aim to cultivate a more confident home-buying experience, assisting them in navigating the market with certainty and success..</p>
+My goal is to support potential investors and homebuyers in making well-informed decisions by offering them data and insights gathered through the comprehensive analysis of the King County real estate market. Moreover, we aim to cultivate a more confident home-buying experience, assisting them in navigating the market with certainty and success.</p>
 
 ## DATA USED FOR THIS PROJECT
 <img width="524" alt="Screenshot 2023-09-15 at 23 33 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/80e45a9b-f518-49b8-9b74-205eb25274a5"></p>
