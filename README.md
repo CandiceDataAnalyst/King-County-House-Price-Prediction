@@ -2,7 +2,7 @@
 <img width="614" alt="Screenshot 2023-07-08 at 18 47 41" src="https://github.com/CandiceDataAnalyst/King-County-House-Price-Prediction/assets/127648422/81dfaa75-c317-4179-a8f4-b3489d80db3b">
 
 ## PROJECT OVERVIEW
-As a data scientist at FlyHomes, As a data scientist at FlyHomes, I am tasked with analyzing house sales data in the King County area to build predictive models for sale prices and identify the significant factors influencing these prices.</p>
+As a data scientist at FlyHomes, I am tasked with analyzing house sales data in the King County area to build predictive models for sale prices and identify the significant factors influencing these prices.</p>
 **Business Question**:</p>
 **Location**: Which areas in King County have the highest average house prices?</p>
 **Inner Factors**: What specific house features (e.g., square footage, number of bedrooms) have the most substantial impact on the sale price?</p>
@@ -22,6 +22,13 @@ The data tool that I used for data cleaning and modeling is Python. To clean the
 
 ## METHODOLOGIES
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9">
+In the effort to analyze the King County real estate market meticulously and aid potential investors and homebuyers in making informed decisions, selecting appropriate analytical methods is important.
+
+Firstly, Exploratory Data Analysis (EDA) is chosen as a foundational step in the analytical process. EDA will facilitate the initial understanding of the dataset, helping to identify the primary trends, patterns, and potential factors that influence house prices in King County. By rectifying data errors and selecting crucial features early on, EDA ensures a robust groundwork for the subsequent analytical stages, aligning perfectly with the goal to offer well-grounded insights to the stakeholders.</p>
+
+Following EDA, the Multiple Linear Regression (MLR) method is employed to build predictive models for house sale prices. MLR stands out for its ability to create clear and understandable models, which is essential in conveying insights to potential investors and homebuyers who may not have a background in data science. Moreover, it enables the identification of impactful variables, directly answering the business questions regarding the inner and external factors affecting house prices.</p>
+
+Lastly, the XGBoost algorithm is incorporated to enhance the predictive accuracy of the models further. This method is known for its high predictive accuracy, automatically handling missing data, and highlighting important features in the dataset, thus providing a more rounded and reliable analysis. It aligns with the project's goal by ensuring the insights derived are based on a thorough analysis, fostering confidence in the homebuyers and investors regarding the decisions they make based on the insights provided.</p>
 
 ## EXPLORATION
 ### City VS Price
@@ -63,6 +70,7 @@ The data tool that I used for data cleaning and modeling is Python. To clean the
 * A direct correlation exists between the grade score and the house price, with a higher grade denoting a higher price.
 ## MODEL COMPARISON
 <img width="1002" alt="Screenshot 2023-09-16 at 00 01 41" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/91549de3-7896-4b89-9af8-ac0ab483b0e5"></P>
+I leveraged MLR and XGBoost algorithms to develop predictive models for inner factors, external factors, and overall factors. Above are the best performances from each method for different independent variables.</p>
 **Insights**:</P>
 - **Inner Factors**:</P>
 Both models emphasized that the variables sqft_living_log, sqft_lot_log, grade, and bathrooms consistently exert a significant impact on house prices. However, they displayed low R-squared values, hinting at a potentially limited relationship between the inner factors and the predicted outcomes. Before deploying the MLR model, I noticed that each variable had a high Variance Inflation Factor (VIF), which signals potential inaccuracies in the MLR results due to multicollinearity. In this case, where variables are highly correlated, this can skew the results and underrepresent the importance of some variables. Despite my attempts to remove the high VIF variables one at a time, I was left with no variables to analyze. Conversely, an article on Medium highlighted the XGBoost model's adeptness at managing multicollinearity issues effectively, suggesting it might furnish more reliable predictions compared to the MLR model in this context.</p>
