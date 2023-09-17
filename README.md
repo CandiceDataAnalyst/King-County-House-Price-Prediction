@@ -5,10 +5,10 @@
 As a data scientist at FlyHomes, my role is to delve into the house sales data in the King County area. The task involves building predictive models for sale prices and pinpointing the factors that significantly influence house prices.</p>
 **Business Question**:</p>
 **Location**: Which areas in King County have the highest average house prices?</p>
-**Inner Factors**: What house features have the most substantial impact on the sale price?</p>
-**External Factors**: How do external elements such as crime rates, school ratings, and demographic data sway house prices in King County?</p>
+**Inner Factors**: What specific house features (e.g., square footage, number of bedrooms) substantially impact the sale price?</p>
+**External Factors**: How do external elements such as crime rates, school ratings, and demographic data affect house prices in King County?</p>
 **Goal**: </p>
-This project aims to guide potential investors and homebuyers in making informed decisions in the King County real estate market.</p>
+To guide potential investors, homebuyers, and Flyhome real estate professionals in making informed decisions in the King County real estate market by providing exploratory data analysis, statistical analysis, and machine learning technology reliable data sources.</p>
 
 ## DATA USED FOR THIS PROJECT
 <img width="524" alt="Screenshot 2023-09-15 at 23 33 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/80e45a9b-f518-49b8-9b74-205eb25274a5">
@@ -17,6 +17,8 @@ I have merged five different datasets based on zip code to construct a new datas
 
 ## DATA PROCESSING
 <img width="1080" alt="Screenshot 2023-09-15 at 23 39 47" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/de4c9ae4-aa2a-40c7-9b5d-1c79c469fa07">
+
+
 
 ## METHODOLOGIES
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9">
