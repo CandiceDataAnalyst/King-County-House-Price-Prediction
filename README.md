@@ -75,7 +75,7 @@ Both models emphasized that the variables sqft_living_log, sqft_lot_log, grade, 
 Both models showed that the unemployment rate, travel time to work, and median age have a substantial impact on house prices. Yet, they encountered the same issue as in the inner factors analysis, presenting lower R-squared values, each variable having a high Variance Inflation Factor (VIF), and no variables were left for modeling after removing the variables with high VIF one by one.</p>
 
 - **Overall Factors**:</P>
-Both models exhibited high explanatory power when considering the overall factors, with XGBoost slightly outperforming MRL. The sqft_living_log and grade variables were significant in both models, highlighting their importance in the prediction.</P>
+Both models exhibited high explanatory power when considering the overall factors, with XGBoost slightly outperforming MLR. The sqft_living_log and grade variables were significant in both models, highlighting their importance in the prediction.</P>
 
 ## Findings
 - **Prime Locations for Investment**</p>
