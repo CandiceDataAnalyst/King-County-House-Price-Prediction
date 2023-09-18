@@ -22,11 +22,11 @@ The data tool that I used for data cleaning and modeling is Python. To clean the
 
 ## METHODOLOGIES
 <img width="1106" alt="Screenshot 2023-09-15 at 23 40 18" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/85cc1e93-43cc-477d-ae25-92f9978312f9"></p>
-To offer potential investors and homebuyers precise insights into the King County real estate market, I combine exploratory and predictive analytics. Initially, I leverage Exploratory Data Analysis (EDA) to clean, enrich, and visualize the data, establishing a solid foundation for the predictive modeling that follows.
+To provide potential investors and homebuyers with precise insights into the King County real estate market, I employ a combination of exploratory and predictive analytics. Initially, I utilize Exploratory Data Analysis (EDA) to clean, enrich, and visualize the data, thereby establishing a solid foundation for the subsequent predictive modeling.
 
-After that, I construct predictive models using two established approaches: Multiple Linear Regression (MLR) and Extreme Gradient Boosting (XGBoost). While these approaches utilize different statistical and machine-learning techniques, they work towards a common goal: creating reliable predictive models for house pricing in King County. These models will be developed independently to capitalize on the distinct advantages offered by each approach, MLR’s straightforward interpretability and XGBoost’s high predictive accuracy being chief among them.
+Following this, I build predictive models using two well-established approaches: Multiple Linear Regression (MLR) and Extreme Gradient Boosting (XGBoost). Although these methods employ different statistical and machine-learning techniques, they share a common objective: to create reliable predictive models for house pricing in King County. These models are developed independently to leverage the unique advantages of each approach; for instance, MLR offers straightforward interpretability, while XGBoost is known for its high predictive accuracy.
 
-Upon completing the development of both models, we move into a comparison and validation phase. Here, the performances of the MLR and XGBoost models are rigorously assessed through cross-validation, utilizing key performance metrics such as Mean Absolute Error (MAE) and R-squared value to gauge their predictive power and reliability
+Upon the completion of both models, I proceed to the comparison and validation phase. In this stage, the performances of the MLR and XGBoost models are rigorously evaluated through cross-validation. I use key performance metrics such as Mean Absolute Error (MAE) and R-squared value to assess their predictive power and reliability.
 ## EXPLORATION
 ### City VS Price
 <img width="1087" alt="Screenshot 2023-09-15 at 23 41 39" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/ce078374-8bfa-42b1-b48d-06ce25902d5d"></p>
