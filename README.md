@@ -94,7 +94,7 @@ There are two factors that consistently influence a home’s market price: **gra
 
 - **Influential External Factors**</p>
 The **unemployment rate**, **commute time**, and **median age** play pivotal roles in significantly influencing housing prices</p>
-**Actionable Insight**: Buyers could look for areas with lower unemployment rates and reasonable commute times to work, coupled with a favorable median age demographic, to secure a property that promises a good quality of life and appreciation over time.</p>
+**Actionable Insight**: Buyers might consider targeting areas with low unemployment rates and manageable commute times to work, aiming to secure a property that not only ensures a high quality of life but also holds the potential for value appreciation over time.</p>
 
 ## Recommendation
 - **Data-Driven Marketing**:</p>
@@ -106,7 +106,7 @@ Recommend leveraging the XGBoost model for predictive analyses given its slightl
 
 ## Further Work
 - **More sales data**:</p>
-The dataset covers the period from May 2014 to May 2015. To reach a more accurate conclusion, it is essential to obtain data that is both more recent and spans a longer period.</P>
+The dataset spans from May 2014 to May 2015, a period that concluded over 8 years ago. To foster more accurate and timely insights, it is vital to acquire more recent data that also covers a broader time frame.</P>
 - **Temporal Analysis**:</p>
 Conduct a temporal analysis to understand how house prices have evolved over time and identify any seasonal trends or patterns.</P>
 - **Interactive Dashboard**: </p>
