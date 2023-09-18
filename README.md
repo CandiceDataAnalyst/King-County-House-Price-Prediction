@@ -84,28 +84,18 @@ Based on our analysis of the various cities in King County, we identified that p
 Actionable Insight: Investors looking for high-value investments should prioritize these areas, while homebuyers aspiring to reside in upscale neighborhoods should focus their search in these cities.</p>
 
 - **Optimal Floor Plan** 
-Our analysis highlighted that homes featuring approximately 2.5 floors command the highest average prices in the market.
-
-Actionable Insight: Sellers should consider renovating older homes to meet this standard, potentially increasing their market value. Conversely, buyers should be prepared to pay a premium for homes with the feature, viewing them as valuable assets in terms of both living experience and future resale value.
+Our analysis highlighted that homes with approximately 2.5 floors command the highest average prices in the market.
+Actionable Insight: Sellers should consider renovating older homes to meet this standard, potentially increasing their market value. Conversely, buyers should be prepared to pay a premium for homes with this feature, viewing them as valuable assets in terms of both living experience and future resale value
 
 - **House Grade - A Critical Factor**
-We observed a robust positive correlation between the house grade and its price. A higher grade unequivocally leads to a higher market price. in addition, four models emphasize that grade is one of the factors that significantly affect house prices.
+We observed a robust positive correlation between the house grade and its price. A higher grade unequivocally leads to a higher market price. In addition, four models emphasize that grade is one of the factors that significantly affect house prices.
 
-Actionable Insight: Homebuyers should be willing to invest more in houses with a higher grade, expecting better living standards and potentially higher returns in case of a future sale. Simultaneously, sellers can undertake improvements to enhance their house's grade, thereby augmenting its market value.
-Unemployment rate, commute time, and median age play pivotal roles: The data suggests that these external factors subtly but significantly influence the housing prices.
+Actionable Insight: Homebuyers should be willing to invest more in houses with a higher grade, expecting better living standards and potentially higher returns in case of a future sale. Simultaneously, sellers can undertake improvements to enhance their house's grade, thereby augmenting its market value.</P>
 
-Actionable Insight: Buyers could look for areas with lower unemployment rates and reasonable commute times to work, coupled with a favorable median age demographic to secure a property that promises a good quality of life and appreciation over time.- **Location Insights**</P>
-**Top Cities for Investment**: Medina, Mercer Island, Bellevue.</P>
-**Seattle**: Major hub with dense housing landscape.</P>
-- **House Features**</P>
-**Optimal Features**: Homes with 3 bedrooms, 2.5 bathrooms, and 2.5 floors tend to fetch the highest prices.</P>
-**Grade**: A higher grade generally correlates with a higher price; the condition score is less influential.</P>
-- **Model**</P>
-**Inner Factors**: The sqft_living_log, sqft_lot_log, grade, and the number of bathrooms significantly impact house prices.</P>
-**External Factors**: The unemployment rate, travel time to work, and median age are significant factors.</P>
-**Overall**: The sqft_living_log and grade being pivotal factors.</P>
-- **Challenges**</P>
-**Multicollinearity**: Present in both inner and external factors, yet better managed by the XGBoost model compared to MLR
+- **External factors**
+The unemployment rate, commute time, and median age play pivotal roles in significantly influencing housing prices.
+Actionable Insight: Buyers could look for areas with lower unemployment rates and reasonable commute times to work, coupled with a favorable median age demographic, to secure a property that promises a good quality of life and appreciation over time.
+
 
 ## Recommendation
 - **Data-Driven Marketing**:</p>
