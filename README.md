@@ -110,9 +110,9 @@ Based on our analysis of the various cities in King County, we identified that p
 Our analysis highlighted that homes with approximately 2.5 floors command the highest average prices in the market.</p>
 **Actionable Insight**: Sellers should consider renovating older homes to meet this standard, potentially increasing their market value. Conversely, buyers should be prepared to pay a premium for homes with this feature, viewing them as valuable assets in terms of both living experience and future resale value.</p>
 
-- **The Significance of House Grades**</p>
-We observed a robust positive correlation between the house grade and its price. A higher grade unequivocally leads to a higher market price. In addition, four models emphasize that grade is one of the factors that significantly affect house prices.</p>
-**Actionable Insight**: Homebuyers should be willing to invest more in houses with a higher grade, expecting better living standards and potentially higher returns in case of a future sale. Simultaneously, sellers can undertake improvements to enhance their house's grade, thereby augmenting its market value.</P>
+- **The Significance of House Features**</p>
+In our research, we found that the two factors that consistently influence a home’s market price are its grade and the amount of living space it offers. Simply put, houses that are graded higher and have more living space are priced higher on the market.</p>
+**Actionable Insight**: For buyers, it’s a smart move to look for homes with larger living areas and higher grades, as these homes not only offer a better living experience but are also likely to appreciate more in value over time. Sellers, on the other hand, can increase the market value of their homes by making improvements that enhance the living space and the grade of the home, helping to secure a better offer when it comes time to sell</P>
 
 - **Influential External Factors**</p>
 The unemployment rate, commute time, and median age play pivotal roles in significantly influencing housing prices</p>
@@ -123,8 +123,6 @@ The unemployment rate, commute time, and median age play pivotal roles in signif
  Utilize the insights derived from the analysis to create data-driven marketing strategies. For example, highlighting the optimal house features (like the number of floors and grade score) in marketing.</P>
 - **Advisory Services**: </p>
 Offer advisory services to clients, helping them make informed decisions based on the significant factors influencing house prices in King County.</P>
-- **Collaborative Efforts**:</p>
-Collaborate with local authorities to gather more comprehensive data on external factors such as crime rates and school ratings to further enhance the predictive models.</P>
 - **Leveraging XGBoost**: </p>
 Recommend leveraging the XGBoost model for predictive analyses given its slightly superior performance compared to the MLR model, especially in handling multicollinearity issues effectively.</P>
 
