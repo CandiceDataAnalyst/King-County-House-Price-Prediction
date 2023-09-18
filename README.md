@@ -37,15 +37,15 @@ Upon the completion of both models, I proceed to the comparison and validation p
 ### Bedrooms vs. Price
 ![bedrooms](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/f8e6a902-4396-45b2-9dec-aedbc2e5e8d4)
 **Insights**:
-- The majority of houses in the dataset have three bedrooms.
-- Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy
-- To maintain data integrity, I removed entries with 0, 11, or 33 bedrooms.
+- The majority of houses in the dataset have three bedrooms.</p>
+- Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy.</p>
+- To maintain data integrity, I removed entries with 0, 11, or 33 bedrooms.</p>
 
 ### Bathrooms vs. Price
 ![bathrooms](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/952688b2-892b-4d7b-8ce0-8345fe7929f3)
 **Insights**:
-- The majority of houses in the dataset have 2.5 bathrooms
-- Similar to the bedrooms, a higher number of bathrooms tends to increase the house price. However, houses with 0 and 7.5 bathrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects their pricing
+- The majority of houses in the dataset have 2.5 bathrooms.
+- Similar to the bedrooms, a higher number of bathrooms tends to increase the house price. However, houses with 0 and 7.5 bathrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects their pricing.
 - To maintain data integrity, I removed entries with 0 or 7.5  bathrooms.
 
 ### Floors vs. Price
