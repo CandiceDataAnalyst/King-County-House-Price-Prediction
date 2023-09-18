@@ -37,7 +37,7 @@ Upon the completion of both models, I proceed to the comparison and validation p
 ### Bedrooms vs. Price
 ![bed](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/79373b08-9e3b-4e38-81ea-55b9f51ad830)
 **Insights**:
-- A large number of houses in the dataset feature three bedrooms.
+- the majority of houses in the dataset have three bedrooms
 - Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy
 - To maintain data integrity, I removed entries with 0, 11, or 33 bedrooms.
 
