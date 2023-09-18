@@ -28,39 +28,39 @@ Following this, I build predictive models using two well-established approaches:
 
 Upon the completion of both models, I proceed to the comparison and validation phase. In this stage, the performances of the MLR and XGBoost models are rigorously evaluated through cross-validation. I use key performance metrics such as Mean Absolute Error (MAE) and R-squared value to assess their predictive power and reliability.</P>
 ## EXPLORATION
-### City VS Price
+### City vs. Price
 <img width="1087" alt="Screenshot 2023-09-15 at 23 41 39" src="https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/ce078374-8bfa-42b1-b48d-06ce25902d5d"></p>
 **Insights**:
 - The top five cities with the highest average house prices are Medina, Mercer Island, Bellevue, Sammamish, and Redmond.</p>
 - A significant portion of the houses are located in Seattle.</p>
 
-### Bedrooms VS Price
+### Bedrooms vs. Price
 ![bed](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/79373b08-9e3b-4e38-81ea-55b9f51ad830)
 **Insights**:
 - A large number of houses in the dataset feature three bedrooms.
 - Generally, more bedrooms result in a higher house price. However, houses with 0, 11, and 33 bedrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects the dataset accuracy
-- To maintain data integrity, it is recommended to remove entries with 0, 11, or 33 bedrooms.
+- To maintain data integrity, I removed entries with 0, 11, or 33 bedrooms.
 
-### Bathrooms VS Price
+### Bathrooms vs. Price
 ![bathrooms](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/a7748a79-12f8-49de-b012-60d155f49ef7)
 **Insights**:
 - The prevalent bathroom configuration is 2.5 bathrooms per house..
 * Similar to the bedrooms, a higher number of bathrooms tends to increase the house price. However, houses with 0 and 7.5 bathrooms are exceptions. During deep exploration, I identified that these houses have impractical layouts, which affects their pricing
-* To maintain data integrity, it is recommended to remove entries with 0 or 7.5  bathrooms.
+* To maintain data integrity, I removed entries with 0 or 7.5  bathrooms.
 
-### Floors VS Price
+### Floors vs. Price
 ![floors](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/fdd65c74-29d7-44d3-8827-1f044d8f9b3e)
 **Insights**:
 * Most houses are designed with one or two floors.
 * Houses boasting 2.5 floors fetch the highest average prices in the market.
 
-### Condition VS Price
+### Condition vs. Price
 ![condition](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/2bfb2f6b-f5ae-4e72-845a-098762045a37)
 **Insights**:
 * A large swath of houses has been awarded a condition score of 3.
 * The average house prices don't vary much for homes with condition scores between 3 and 5.
 
-### Grade VS Price
+### Grade vs. Price
 ![grade](https://github.com/WuCandice/King-County-House-Price-Prediction/assets/127648422/29a803cd-44bc-4ce8-b219-5be472c1b287)
 **Insights**:
 * The majority of houses receive a grade score of 7.
