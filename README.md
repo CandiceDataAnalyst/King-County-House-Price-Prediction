@@ -78,7 +78,23 @@ Both models showed that the unemployment rate, travel time to work, and median a
 Both models exhibited high explanatory power when considering the overall factors, with XGBoost slightly outperforming MRL. The sqft_living_log and grade variables were significant in both models, highlighting their importance in the prediction.</P>
 
 ## Findings
-- **Location Insights**</P>
+- **Prime Locations for Investment**</p>
+Based on our analysis of the various cities in King County, we identified that premium areas such as Medina, Mercer Island, Bellevue, Sammamish, and Redmond exhibit the highest average house prices. Therefore, investments in these regions are most likely to yield substantial returns due to the premium value attached to properties in these localities.</p>
+
+Actionable Insight: Investors looking for high-value investments should prioritize these areas, while homebuyers aspiring to reside in upscale neighborhoods should focus their search in these cities.</p>
+
+- **Optimal Floor Plan** 
+Our analysis highlighted that homes featuring approximately 2.5 floors command the highest average prices in the market.
+
+Actionable Insight: Sellers should consider renovating older homes to meet this standard, potentially increasing their market value. Conversely, buyers should be prepared to pay a premium for homes with the feature, viewing them as valuable assets in terms of both living experience and future resale value.
+
+- **House Grade - A Critical Factor**
+We observed a robust positive correlation between the house grade and its price. A higher grade unequivocally leads to a higher market price. in addition, four models emphasize that grade is one of the factors that significantly affect house prices.
+
+Actionable Insight: Homebuyers should be willing to invest more in houses with a higher grade, expecting better living standards and potentially higher returns in case of a future sale. Simultaneously, sellers can undertake improvements to enhance their house's grade, thereby augmenting its market value.
+Unemployment rate, commute time, and median age play pivotal roles: The data suggests that these external factors subtly but significantly influence the housing prices.
+
+Actionable Insight: Buyers could look for areas with lower unemployment rates and reasonable commute times to work, coupled with a favorable median age demographic to secure a property that promises a good quality of life and appreciation over time.- **Location Insights**</P>
 **Top Cities for Investment**: Medina, Mercer Island, Bellevue.</P>
 **Seattle**: Major hub with dense housing landscape.</P>
 - **House Features**</P>
