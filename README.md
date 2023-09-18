@@ -79,16 +79,16 @@ Both models exhibited high explanatory power when considering the overall factor
 
 ## Findings
 - **Prime Locations for Investment**</p>
-Based on our analysis of the various cities in King County, we identified that premium areas such as Medina, Mercer Island, Bellevue, Sammamish, and Redmond exhibit the highest average house prices. Therefore, investments in these regions are most likely to yield substantial returns due to the premium value attached to properties in these localities.</p>
+Based on my analysis of the various cities in King County, I identified that premium areas such as Medina, Mercer Island, Bellevue, Sammamish, and Redmond exhibit the highest average house prices. Therefore, investments in these regions are most likely to yield substantial returns due to the premium value attached to properties in these localities.</p>
 **Actionable Insight**: Investors looking for high-value investments should prioritize these areas, while homebuyers aspiring to reside in upscale neighborhoods should focus their search in these cities.</p>
 
 - **Desirable Floor Plans**</p>
-Our analysis highlighted that homes with approximately 2.5 floors command the highest average prices in the market.</p>
+My analysis highlighted that homes with approximately 2.5 floors command the highest average prices in the market.</p>
 **Actionable Insight**: Sellers should consider renovating older homes to meet this standard, potentially increasing their market value. Conversely, buyers should be prepared to pay a premium for homes with this feature, viewing them as valuable assets in terms of both living experience and future resale value.</p>
 
 - **The Significance of House Features**</p>
-In our research, we found that the two factors that consistently influence a home’s market price are its grade and the amount of living space it offers. Simply put, houses that are graded higher and have more living space are priced higher on the market.</p>
-**Actionable Insight**: For buyers, it’s a smart move to look for homes with larger living areas and higher grades, as these homes not only offer a better living experience but are also likely to appreciate more in value over time. Sellers, on the other hand, can increase the market value of their homes by making improvements that enhance the living space and the grade of the home, helping to secure a better offer when it comes time to sell</P>
+There are two factors that consistently influence a home’s market price: grade and square footage of living space. Simply put, houses that are graded higher and have more living space are priced higher on the market.</p>
+**Actionable Insight**: For buyers, it’s a smart move to look for homes with larger living areas and higher grades, as these homes not only offer a better living experience but are also likely to appreciate more in value over time. Sellers, on the other hand, can increase the market value of their homes by making improvements that enhance the grade of the home, helping to secure a better offer when it comes time to sell</P>
 
 - **Influential External Factors**</p>
 The unemployment rate, commute time, and median age play pivotal roles in significantly influencing housing prices</p>
