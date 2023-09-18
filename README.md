@@ -81,7 +81,7 @@ Both models exhibited high explanatory power when considering the overall factor
 
 ## Findings
 - **Prime Locations for Investment**</p>
-Based on my analysis of the various cities in King County, I identified that premium areas such as Medina, Mercer Island, Bellevue, Sammamish, and Redmond exhibit the highest average house prices. Therefore, investments in these regions are most likely to yield substantial returns due to the premium value attached to properties in these localities.</p>
+Based on my analysis of the various cities in King County, I identified that premium areas such as <U>Medina, Mercer Island, Bellevue, Sammamish, and Redmond</U> exhibit the highest average house prices. Therefore, investments in these regions are most likely to yield substantial returns due to the premium value attached to properties in these localities.</p>
 **Actionable Insight**: Investors looking for high-value investments should prioritize these areas, while homebuyers aspiring to reside in upscale neighborhoods should focus their search in these cities.</p>
 
 - **Desirable Floor Plans**</p>
