@@ -113,4 +113,5 @@ Conduct a temporal analysis to understand how house prices have evolved over tim
 Develop an interactive dashboard that allows users to explore the data and insights visually and to generate custom reports based on their preferences.</P>
 
 ## Contact
-Thank you for reading. If you have any questions regarding this project, you can email me at candice.wu.555@gmail.com.
+Thank you for reading. If you have any questions regarding this project, you can email me at candice.wu.555@gmail.com, or connect me:  <a href="https://www.linkedin.com/in/wu-candice/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
