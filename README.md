@@ -111,3 +111,6 @@ The dataset spans from May 2014 to May 2015, a period that concluded several yea
 Conduct a temporal analysis to understand how house prices have evolved over time and identify any seasonal trends or patterns.</P>
 - **Interactive Dashboard**: </p>
 Develop an interactive dashboard that allows users to explore the data and insights visually and to generate custom reports based on their preferences.</P>
+
+## Contact
+Thank you for reading. If you have any questions regarding this project, you can email me at candice.wu.555@gmail.com.
