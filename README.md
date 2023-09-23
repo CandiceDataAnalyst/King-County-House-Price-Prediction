@@ -102,7 +102,7 @@ The **unemployment rate**, **commute time**, and **median age** play pivotal rol
 - **Advisory Services**: </p>
 Offer advisory services to clients, helping them make informed decisions based on the significant factors influencing house prices in King County.</P>
 - **Leveraging XGBoost**: </p>
-Considering its slightly superior performance in our analysis, using the XGBoost model for future predictive analyses could handle multicollinearity issues more effectively compared to the MLR model.</P>
+Consider using XGBoost for future predictive analyses due to its  slightly better performance and its enhanced ability to handle multicollinearity issues compared to the MLR model.</P>
 
 ## Further Work
 - **More sales data**:</p>
